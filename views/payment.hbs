@@ -1,0 +1,99 @@
+{{!-- <body>
+    <div class="login-wrap">
+        <div class="login-html">
+            <ul class="mb-5">
+                <h2 class="text-center">
+                    PAYMENT FORM
+                </h2>
+            </ul>
+
+
+            </label>
+            <div class="login-form">
+
+                <div class="sign-up-htm">
+
+                    <div class="group mb-4">
+                        <label for="user" class="label sr-only">FULLNAME</label>
+                        <input id="user" type="text" class="input" placeholder="ENTER FULLNAME">
+                    </div>
+                    </form>
+
+
+                    <div class="group mb-4">
+                        <label for="pass" class="label sr-only">Email Address</label>
+                        <input id="pass" type="email" class="input" placeholder="ENTER MAIL">
+                    </div>
+
+                    <div class="group">
+                        <label for="pass" class="label sr-only">AMOUNT</label>
+                        <input id="pass" type="number" class="input" placeholder=" ENTER AMOUNT"><br /><br>
+                    </div>
+
+                    <div class="group">
+                        <a href="">
+                            <div class="btn btn-success col-sm-12 p-2">MAKE PAYMENT</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+</body> --}}
+
+<div class="real" id="payment"
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="heading-section heading-section-white ftco-animate mb-5">
+                <h2 class="my-4 text-center">PAYMENT</h2>
+            </div>
+            <form action="/paystack/pay" method="POST" class="appointment-form ftco-animate">
+                <div class="d-md-flex">
+                    <div class="form-group">
+                        <input type="text" name="fullName" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group ml-md-4">
+                        <input type="text" name="email" class="form-control" placeholder=" Email">
+                    </div>
+                </div>
+                <div class="d-md-flex">
+                    {{!-- <div class="form-group">
+                                            <input type="tel"  name="phoneNumber" class="form-control" placeholder="Phone Number">
+                                        </div> --}}
+                    <div class="form-group ml-md-6">
+                        <input type="tel" name="amount" class="form-control" placeholder="Amount">
+                        {{!-- <input type="text" class="form-control" value="#40000" disabled> --}}
+                    </div>
+                </div>
+                <div class="d-md-flex">
+                    {{!-- <div class="form-group">
+                                            <textarea name="message" id="" cols="30" rows="2" class="form-control"
+                                                placeholder="Message"></textarea>
+                                        </div> --}}
+                    <div class="form-group mx-auto ">
+                        <input type="submit" value="Make Payment" class="btn btn-success  py-3 px-4">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+{{!-- <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(/images/bg_5.jpg);"
+    data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-md-6 py-5 px-md-5">
+                <div class="py-md-5">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}

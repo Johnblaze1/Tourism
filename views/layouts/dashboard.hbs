@@ -1,0 +1,12 @@
+{{> dashboard/header}}
+{{> dashboard/top-nav}}
+{{> dashboard/sideBar}}
+{{#if success_messages}}
+<div class="alert alert-success">{{success_messages}}</div>
+{{/if}}
+
+{{#if error_messages}}
+<div class="alert alert-danger">{{error_messages}}</div>
+{{/if}}
+{{{ body }}}
+{{> dashboard/footer}}

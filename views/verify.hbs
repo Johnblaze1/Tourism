@@ -1,0 +1,28 @@
+<div class="container my-5">
+    <div class="row verifyHeight">
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4">
+            <form action="/user/verify" method="POST">
+                <div class="form-group" id="verify">
+                    <label class="control-label" style="font-weight: bold">Verify Account</label>
+                    <input required maxlength="100" type="text" name="secretToken" class="form-control"
+                        placeholder="Enter Token" />
+                </div>
+                <button class="btn btn-success nextBtn btn-lg " id="bb" type="submit">Verify</button>
+            </form>
+        </div>
+
+        <div class="col-md-4"></div>
+
+
+    </div>
+</div>
+
+{{#if success_messages}}
+<div class="alert alert-success">{{success_messages}}</div>
+{{/if}}
+
+{{#if error_messages}}
+<div class="alert alert-danger">{{error_messages}}</div>
+{{/if}}

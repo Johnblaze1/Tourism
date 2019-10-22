@@ -1,0 +1,13 @@
+{{> admin/header}}
+{{> admin/top-nav}}
+{{> admin/sideBar}}
+{{#if success_messages}}
+<div class="alert alert-success">{{success_messages}}</div>
+{{/if}}
+
+{{#if error_messages}}
+<div class="alert alert-danger">{{error_messages}}</div>
+{{/if}}
+{{{body}}}
+
+{{>admin/footer}}

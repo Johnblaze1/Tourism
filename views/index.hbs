@@ -1,0 +1,480 @@
+<!-- Home -->
+
+<div class="home">
+
+	{{!-- --------------------Carousel Banner------------------------------------ --}}
+	{{!-- 
+	<div id="slider2" class=" carousel slide mb-5" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li class="active" data-target="#slider2" data-slide-to="0"></li>
+			<li data-target="#slider2" data-slide-to="1"></li>
+			<li data-target="#slider2" data-slide-to="2"></li>
+			<li data-target="#slider2" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img src="/images/assop-falls-21.jpg" width="100%" alt="" class="d-block img-fluid">
+				<div class="carousel-caption mb-5">
+					<h2>ASSOP WATERFALLS</h2>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/museum.gif" width="100%" alt="" class="d-block img-fluid">
+				<div class="carousel-caption mb-5">
+					<h2>JOS MUSEUM</h2>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/sherehills_1.jpeg" width="100%" alt="" class="d-block img-fluid">
+				<div class="carousel-caption mb-5">
+					<h2>SHERE HILLS HILLS</h2>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/volcano.jpeg" width="100%" alt="" class="d-block img-fluid">
+				<div class="carousel-caption mb-5">
+					<h2>JOS INACTIVE VOLCANO</h2>
+				</div>
+			</div>
+		</div>
+
+		<a href="#slider2" class="carousel-control-prev" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#slider2" class="carousel-control-next" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div> --}}
+
+	<div style="height: 500px;"><img src="/images/bridge.jpeg" alt="" width="100%" height="600px"></div>
+
+
+
+
+
+	<div class="home_content_inner">
+		<h2>Vacation On The Plateau</h2>
+	</div>
+
+</div>
+
+{{#if success_messages}}
+<div class="alert alert-success">{{success_messages}}</div>
+{{/if}}
+
+{{#if error_messages}}
+<div class="alert alert-danger">{{error_messages}}</div>
+{{/if}}
+<!-- Top Destinations -->
+
+<div class="top backimg">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="section_title text-center">
+					<h2>Places To Visit In Plateau</h2>
+					<div>Take a Look at These Offers</div>
+				</div>
+			</div>
+		</div>
+		<div class="row top_content">
+
+			<div class="col-lg-3 col-md-6 top_col">
+
+				<!-- Top Destination Item -->
+				<div class="top_item">
+					<a href="#">
+						<div class="top_item_image"><img src="/images/sherehills_1.jpeg" alt="" height="200px"></div>
+						<div class="top_item_content">
+						</div>
+						<div class="top_item_text">Shere Hills, Jos</div>
+					</a>
+					<p class="top_dd" style="margin-top:20px">
+						Located just 10km from Jos it serves as a campsite for the Citizenship and
+						Leadership Training Center</p>
+					<div class="btn-success text-center" data-toggle="modal" data-target="#Top_Dest">More</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 top_col">
+
+				<!-- Top Destination Item -->
+				<div class="top_item">
+					<a href="#">
+						<div class="top_item_image"><img src="/images/kura_falls2.jpeg" alt="" height="200px"></div>
+						<div class="top_item_content">
+						</div>
+					</a>
+					<div class="top_item_text">Kura Falls, Jos</div>
+					<p class="top_dd" style="margin-top:20px">The Kura falls is situated in a region of wonderful
+						landscape nearly 77 kilometers southeast of
+						Jos.
+					</p>
+					<div class="btn-success text-center" data-toggle="modal" data-target="#Top_Dest2">More</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 top_col">
+
+				<!-- Top Destination Item -->
+				<div class="top_item">
+					<a href="#">
+						<div class="top_item_image"><img src="/images/museum_4.jpg" alt="" width="400px" height="200px">
+						</div>
+						<div class="top_item_content">
+						</div>
+					</a>
+					<div class="top_item_text">Jos Museum,Jos</div>
+					<p class="top_dd" style="margin-top:20px">
+						The museum was established in 1952 by Bernard Fagg it was originally the
+						National Museum.
+					</p>
+					<div class="btn-success text-center" data-toggle="modal" data-target="#Top_Dest3">More</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 top_col">
+
+				<!-- Top Destination Item -->
+				<div class="top_item">
+					<a href="#">
+						<div class="top_item_image"><img src="/images/RIYOM.jpg" alt="" height="200px"></div>
+						<div class="top_item_content">
+						</div>
+						<div class="top_item_text">Riyom Rock, Riyom</div>
+					</a>
+					<p class="top_dd" style="margin-top:20px">
+						The rock formation is located in Riyom Town just 25 kilometres to the southwest of Jos, the
+						capital city.
+					</p>
+					<div class="btn-success text-center" data-toggle="modal" data-target="#Top_Dest4">More</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+{{!-- End of top destination --}}
+
+
+{{!-- Top Destinations Modal --}}
+
+<!-- Modal -->
+<div class="modal fade" id="Top_Dest" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">SHERE HILLS</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					If you love adventure, then, you will love this place. Shere hills is not just one of the numerous
+					mountains in Jos, it is also the highest and the most rugged of them all.
+					It is a top spot for picnics, camping and rock climbing.
+				</p>
+			</div>
+			<div class="modal-footer">
+				{{!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> --}}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="modal fade" id="Top_Dest2" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">KURA FALLS</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					The village is situated within rich savannah vegetation with mountainous ranges and lakes, providing
+					a beautiful scenery ideal for picnic, bird watching and nature trail.
+					The Kura Falls is a wonderful region of slopes and lakes perfect for sculling, outdoors and shake
+					climbing. Kura falls is the perfect getaway destination for people seeking solace from urbanization
+					or just looking to appreciate the aesthetics of mother nature.
+					It is also the location of the state's first hydroelectric power station.
+					The Kurra falls lies to the east of Barkin-Ladi along the Jos-Pankshin road.
+				</p>
+			</div>
+			<div class="modal-footer">
+				{{!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> --}}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="modal fade" id="Top_Dest3" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">JOS MUSEUM</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>It is an important centre of research into the prehistoric culture of Nigeria, and was recognized as
+					one of the best in the country. The Pottery Hall in the museum has an exceptional collection of
+					finely crafted pottery from all over Nigeria. The museum boasts some fine specimens of Nok
+					terracotta heads and artifacts dating from between 500 BC to AD 200.
+				</p>
+			</div>
+			<div class="modal-footer">
+				{{!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> --}}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="modal fade" id="Top_Dest4" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">RIYOM ROCKS</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>One of the most enchanting scenes in Nigeria and taking a look at the way these mighty boulders
+					are arranged on top of one another in that delicate position for thousands, if not millions of
+					years, one cannot but be awed by the majestic wonders of nature.
+				</p>
+			</div>
+			<div class="modal-footer">
+				{{!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> --}}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Popular -->
+
+<div class="popular">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="section_title text-center">
+					<h2>Places to Stay in
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+					</h2>
+					<div>Take A Look At These Offers</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div
+				class="popular_content d-flex flex-md-row flex-column flex-wrap align-items-md-center align-items-start justify-content-md-between justify-content-start">
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/Hill Station Hotel Front View.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Hill Station Hotel, Jos</div>
+						</div>
+					</a>
+				</div>
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+
+					<a href="/user/login">
+						<img src="/images/sharna.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+						
+							<div class="text">Sharna Place, Jos</div>
+						</div>
+					</a>`
+				</div>
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/crest-hotel-annex.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Crest Hotel, Jos </div>
+						</div>
+					</a>
+				</div>
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/lamonde-hotel-plateau-28228.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Lamonde Hotel, Jos</div>
+						</div>
+					</a>
+				</div>
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/semshak-hotel-plateau-32301.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Semshak Hotel, Jos</div>
+						</div>
+					</a>
+				</div>
+
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/novel-suites-resorts-plateau-28277.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Novel Suites, Jos</div>
+						</div>
+					</a>
+				</div>
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/avalon-suites-plateau-19518.jpg" alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text">Avalon Suites, Jos</div>
+						</div>
+					</a>
+				</div>
+				<!-- Popular Item -->
+				<div class="holder col-md-3">
+					<a href="/user/login">
+						<img src="/images/franzy-suites-and-lounge-4671-00b3367f78b1f15cb885a44f1ee117077ac1bb6b.jpg"
+							alt="" class="image">
+						<div class="overlay overlayleft">
+
+							<div class="text"> Franzy Suites, Jos</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<!-- Special -->
+
+<div class="special mb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="section_title text-center">
+					<h2>CULTURES ON THE PLATEAU</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="special_content">
+		<div class="special_slider_container">
+			<div class="owl-carousel owl-theme special_slider">
+
+				<!-- Special Offers Item -->
+				<div class="owl-item">
+					<div class="special_item">
+						<div class="special_item_background"><img src="/images/jarawa.jpg" alt="" height="200px"></div>
+						<div class="special_item_content text-center">
+							<div class="special_title"><a href="#">JARAWA</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Special Offers Item -->
+				<div class="owl-item">
+					<div class="special_item d-flex flex-column align-items-center justify-content-center">
+						<div class="special_item_background"><img src="/images/anaguta_2.jpg" alt="" height="200px">
+						</div>
+						<div class="special_item_content text-center">
+							<div class="special_title"><a href="#">ANAGUTA</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Special Offers Item -->
+				<div class="owl-item">
+					<div class="special_item d-flex flex-column align-items-center justify-content-center">
+						<div class="special_item_background"><img src="/images/Berom-1280x720.jpg" alt=""
+								height="200px"></div>
+						<div class="special_item_content text-center">
+							<div class="special_title"><a href="#">BEROM</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Special Offers Item -->
+				<div class="owl-item">
+					<div class="special_item d-flex flex-column align-items-center justify-content-center">
+						<div class="special_item_background"><img src="/images/hausa.jpg" alt="" height="200px"></div>
+						<div class="special_item_content text-center">
+							<div class="special_title"><a href="#">HAUSA</a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Special Offers Item -->
+				<div class="owl-item">
+					<div class="special_item d-flex flex-column align-items-center justify-content-center">
+						<div class="special_item_background"><img src="	/images/fulani.jpg" alt="" height="200px"></div>
+						<div class="special_item_content text-center">
+							<div class="special_title"><a href="#">FULANI</a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="special_slider_nav d-flex flex-column align-items-center justify-content-center">
+				<img src="/images/special_slider.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Newsletter -->
+
+<div class="newsletter">
+	<!-- Image by https://unsplash.com/@garciasaldana_ -->
+	<div class="newsletter_background" style="background-image:url(/images/newsletter.jpg)"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 offset-lg-1">
+				<div class="newsletter_content">
+					<div class="newsletter_title text-center">Subscribe to our Newsletter</div>
+					<div class="newsletter_form_container">
+							<form action="/newsletter" id="newsletter_form" class="newsletter_form" method="POST">
+							<div class="d-flex flex-md-row flex-column align-content-center justify-content-between">
+								<input type="email" id="newsletter_input" class="newsletter_input"
+									placeholder="Your E-mail Address">
+								<button type="submit" id="newsletter_button"
+									class="newsletter_button">Subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
