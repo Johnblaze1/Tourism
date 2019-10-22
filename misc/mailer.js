@@ -1,5 +1,5 @@
-const nodemailer = require('nodemailer');
-const config = require('../config/mailer');
+const nodemailer = require('nodemailer')
+const config = require('../config/mailer')
 
 //Creating or building the transport object
 const transport = nodemailer.createTransport({
@@ -11,7 +11,7 @@ const transport = nodemailer.createTransport({
     tls: {
         rejectUnauthorized: false
     }
-});
+})
 
 // Making this whole file available
 module.exports = {
